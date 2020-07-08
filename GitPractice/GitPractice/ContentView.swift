@@ -34,6 +34,10 @@ struct ContentView: View {
                 Text("text change")
             }
             Text(isTapped ? "Tapped" : "NotTapped")
+            Image("sakura")
+                .resizable()
+                .scaledToFit()
+                .blurButton()
         }
     }
 }
