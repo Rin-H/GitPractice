@@ -9,6 +9,12 @@
 import SwiftUI
 
 struct ContentView: View {
+    let images = [(systemName: "sun.max.fill", tag:"Sun"),
+                  (systemName: "cloud.fill", tag:"Cloudy"),
+                  (systemName: "umbrella.fill", tag:"Rain"),
+                  (systemName: "snow", tag:"Snow")]
+    
+    @State var weather = 1
     @State var metre: Double = 0
     @State var isChanged = false
     @State var isTapped = false
@@ -34,6 +40,12 @@ struct ContentView: View {
                 Text("text change")
             }
             Text(isTapped ? "Tapped" : "NotTapped")
+            Picker(selection: $weather,
+                   label: Text("Weather")) { ForEach(0..<images.count){
+                    Image(systemName: self.images[$0].systemName)
+                    }
+            }.pickerStyle(SegmentedPickerStyle())
+            Text("\(images[weather].tag)")
         }
     }
 }
