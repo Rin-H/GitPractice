@@ -11,6 +11,7 @@ import SwiftUI
 struct ContentView: View {
     @State var metre: Double = 0
     @State var isChanged = false
+    @State var isTapped = false
     
     var body: some View {
         VStack{
@@ -24,9 +25,15 @@ struct ContentView: View {
             
             if !isChanged {
                 Text("\(metre) m is  \(metre * 0.3048) feet")
+                .padding()
             } else {
                 Text("\(metre)")
+                .padding()
             }
+            Button(action: {self.isTapped.toggle() }){
+                Text("text change")
+            }
+            Text(isTapped ? "Tapped" : "NotTapped")
         }
     }
 }
