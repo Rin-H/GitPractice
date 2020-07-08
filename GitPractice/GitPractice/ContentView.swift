@@ -14,7 +14,7 @@ struct ContentView: View {
     
     var body: some View {
         VStack{
-            Text("Our, World!")
+            Text("Your, World!")
             Slider(value: $metre, in: -100...100, step: 0.1, onEditingChanged:  {
                 changed in
                 self.isChanged = changed
