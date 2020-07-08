@@ -13,6 +13,7 @@
 		2149B9B724B46F160020BA36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2149B9B624B46F160020BA36 /* Assets.xcassets */; };
 		2149B9BA24B46F160020BA36 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2149B9B924B46F160020BA36 /* Preview Assets.xcassets */; };
 		2149B9BD24B46F160020BA36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2149B9BB24B46F160020BA36 /* LaunchScreen.storyboard */; };
+		21E83E4B24B5A7EA00BA20EF /* UtilModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E83E4A24B5A7EA00BA20EF /* UtilModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		2149B9B924B46F160020BA36 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2149B9BC24B46F160020BA36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2149B9BE24B46F160020BA36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21E83E4A24B5A7EA00BA20EF /* UtilModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				2149B9B024B46F140020BA36 /* AppDelegate.swift */,
+				21E83E4A24B5A7EA00BA20EF /* UtilModifier.swift */,
 				2149B9B224B46F140020BA36 /* SceneDelegate.swift */,
 				2149B9B424B46F140020BA36 /* ContentView.swift */,
 				2149B9B624B46F160020BA36 /* Assets.xcassets */,
@@ -148,6 +151,7 @@
 			files = (
 				2149B9B124B46F140020BA36 /* AppDelegate.swift in Sources */,
 				2149B9B324B46F140020BA36 /* SceneDelegate.swift in Sources */,
+				21E83E4B24B5A7EA00BA20EF /* UtilModifier.swift in Sources */,
 				2149B9B524B46F140020BA36 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
