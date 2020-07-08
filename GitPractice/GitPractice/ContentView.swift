@@ -40,7 +40,6 @@ struct ContentView: View {
                 Text("text change")
             }
             Text(isTapped ? "Tapped" : "NotTapped")
-<<<<<<< HEAD
             Picker(selection: $weather,
                    label: Text("Weather")) { ForEach(0..<images.count){
                     Image(systemName: self.images[$0].systemName)
